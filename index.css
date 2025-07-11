@@ -292,6 +292,7 @@ a{
 
 footer {
   text-align: center;
+  padding-bottom: 50px;
 }
 .foot h1{
     color:  blueviolet;
@@ -304,4 +305,11 @@ footer {
 } 
 .foot-list ul li a:hover {
   color: #fd6e00;
+  font-size: 18px;
+  
 }
+
+label{
+    font-size: 18px;
+    font-weight: medium;
+} 
