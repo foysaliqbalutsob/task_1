@@ -10,6 +10,14 @@
     
 } */
 
+
+
+.contact-heading {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
 nav{
     display: flex;
     align-items: center;
