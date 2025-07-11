@@ -25,21 +25,16 @@ nav{
      margin: 0 150px; 
 
 }
-li{
-    text-decoration: none;
-}
+
 .nav-title{
     font-weight: 700;
     font-size: 30px;
     color: blueviolet;
 }
-nav ul li{
-    list-style: none;
 
-}
 
 .btn-primary{
-    background-color:  rgba(78, 71, 255, 1);
+    background-color:#4E47FF;
     font-weight: bold;
     color: white;
     padding: 18px 40px;  
@@ -51,12 +46,13 @@ nav ul li{
 .btn-primary:hover{
     background-color: rgb(28, 15, 15);
     font-weight: 40px;
+    font-size: 18px;
 
 }
 
 .hero-section{
     background-image:url(image/Hero-bg.png);
-    height: 700px;
+    height: 600px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -64,9 +60,9 @@ nav ul li{
 
 .hero-title{
     text-align: center;
-    padding-top: 160px;
-    padding-left:250px;
-    padding-right:250px; 
+    /* padding-top: 160px; */
+    /* padding-left:250px; */
+    /* padding-right:250px;  */
 }
 .hero-title h1{
     font-size:75px;
@@ -159,31 +155,36 @@ nav ul li{
     font-weight: bold;
 }
 
-.test-img img{
-    border-radius: 100px;
-    
-}
+
 
 
 
 .test-img{
     display: flex;
     gap: 10px; 
+    align-items: center;
+    /* border: 2px solid red; */
+    /* padding: 0; */
 }
+
+.test-img-text p{
+    font-weight: 400;
+}
+
 
 .col-container{
     display: flex;
     margin: 50px 150px;
     justify-content: center;
-    padding: 30px;
+    /* padding: 30px; */
     gap: 20px;
    
     
 }
 .test-col-3{
-    border: 5px solid #FFFFFF;
-    gap: 20px;
-    padding: 10px 20px;
+    /* border: 5px solid #FFFFFF; */
+    /* gap: 20px; */
+    /* padding: 10px 20px; */
     padding: 30px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.08);
     border-radius: 20px;
@@ -229,24 +230,28 @@ nav ul li{
   
 
 .new-sec{
-   margin: 150px 90px;
+   margin:90px 150px;
     gap: 115px;
     display: flex;
     justify-content:space-between;
      
     
 }
+
+
+
 .input-text ,section textarea{
     /* display: block; */
     /* height: 40px; */
     background-color: #FFFFFF;
-    width: 100%; 
+    width: calc(100% - 64px); 
     border-radius: 5px;
     border:1px  solid ;
     padding: 20px 32px;
    
-    
-
+}
+.form-label{
+    margin-top: 10px;
 }
 .new-sec-title{
     
@@ -255,12 +260,7 @@ nav ul li{
     
 
 }
-.form-new{
-    
-    padding-right: 40px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
+
 
 
 
@@ -269,9 +269,8 @@ nav ul li{
 /* footer */
 .foot{
     
-    padding-top: 100px;
-    padding: 100px 100px;
-    margin-top: 0;
+    /* padding-top: 100px; */
+    /* padding: 100px 100px; */
 }
 a{
     text-decoration: none;
